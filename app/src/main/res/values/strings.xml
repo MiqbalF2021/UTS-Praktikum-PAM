@@ -12,6 +12,35 @@
         <item>Padalarang</item>
         <item>Cimahi</item>
     </string-array>
+    <string-array name="menu_titles">
+        <item>Pepperoni Pizza</item>
+        <item>Spaghetti</item>
+        <item>Burger</item>
+        <item>Steak</item>
+    </string-array>
+    <string-array name="menu_descriptions">
+        <item>Pepperoni adalah makanan bumbu salami yang berasal dari Amerika Serikat-Italia, terbuat dari daging babi dan sapi. Di Italia, pepperoni disebut salame piccante. Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap.</item>
+        <item>Spageti adalah salah satu jenis pasta yang berbentuk panjang, tipis, silindris, dan padat, yang jika diperhatikan menyerupai mie pada umumnya. Ini adalah makanan pokok dalam masakan Italia</item>
+        <item>Hamburger atau burger adalah sejenis roti berbentuk bundar yang diiris dua, dan di tengahnya diisi dengan patty yang biasanya diambil dari daging, kemudian sayur-sayuran berupa selada, tomat dan bawang bombai. Sebagai sausnya, hamburger diberi berbagai jenis saus seperti mayones, saus tomat dan sambal, serta moster.</item>
+        <item>Steik adalah sepotong besar daging, biasanya daging sapi. Daging merah, dada ayam, dan ikan sering kali dipotong menjadi steik. Kebanyakan steik dipotong tegak lurus dengan serat otot, menambah kelegitan daging. Steik biasanya dimasak dengan dipanggang, meskipun dapat digoreng atau di-"broil".</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <string name="lorem_ipsum">

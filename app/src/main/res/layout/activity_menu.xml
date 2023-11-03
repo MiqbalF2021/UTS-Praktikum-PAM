@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Cocok bagi anda yang suka pedas bung"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textColor="#333333" />
 
         </LinearLayout>
@@ -97,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Lezat dan Bergizi sekali waw"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textColor="#333333"
                 />
 
@@ -143,7 +143,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="yo ayo dibeli, murah cuman 500 rupiah"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textColor="#333333" />
 
         </LinearLayout>
@@ -154,7 +154,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="30dp"
+        android:paddingBottom="20dp">
 
         <!-- Gambar menu -->
         <ImageView
@@ -163,8 +164,8 @@
             android:layout_height="130dp"
             android:scaleType="centerCrop"
             android:src="@drawable/menu4"
-            android:contentDescription="Menu Image"
             android:layout_marginRight="30dp"
+            android:contentDescription="Menu Image"
             />
 
         <LinearLayout
@@ -188,12 +189,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Steak yang berkualitas, daging yang didapatkan dari planet Mars"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textColor="#333333" />
 
         </LinearLayout>
 
     </LinearLayout>
 
+    <ImageButton
+        android:id="@+id/myButton"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:src="@drawable/plus"
+        android:contentDescription="Tambah" />
 
 </LinearLayout>

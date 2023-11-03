@@ -24,25 +24,25 @@ class HomeActivity : AppCompatActivity() {
         nameEditText = findViewById(R.id.nameEditText)
         submitButton = findViewById(R.id.submit_button)
 
-        // Populate the Spinner with data from the string array
+
         val storeArray = resources.getStringArray(R.array.store_array)
         val spinnerAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, storeArray)
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         storeSpinner.adapter = spinnerAdapter
 
-        // Set a click listener for the submit button
+
         submitButton.setOnClickListener {
             val selectedStore = storeSpinner.selectedItem.toString()
             val enteredName = nameEditText.text.toString()
 
-            // Buat Intent untuk pindah ke Activity baru
+
             val intent = Intent(this, DetailActivity::class.java)
 
-            // Sisipkan data yang diperlukan ke Intent
+
             intent.putExtra("selectedStore", selectedStore)
             intent.putExtra("enteredName", enteredName)
 
-            // Mulai Activity baru
+
             startActivity(intent)
         }
     }
