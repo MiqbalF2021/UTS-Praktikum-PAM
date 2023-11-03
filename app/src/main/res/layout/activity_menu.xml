@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo"
+        android:textSize="24dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <!-- Gambar menu -->
+        <ImageView
+            android:id="@+id/menuImage1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu1"
+            android:contentDescription="Menu Image"
+            android:layout_marginRight="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Judul menu -->
+            <TextView
+                android:id="@+id/menuTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pepperoni Pizza"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <!-- Deskripsi menu -->
+            <TextView
+                android:id="@+id/menuDeskripsi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cocok bagi anda yang suka pedas bung"
+                android:textSize="18sp"
+                android:textColor="#333333" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <!-- Gambar menu -->
+        <ImageView
+            android:id="@+id/menuImage2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu2"
+            android:contentDescription="Menu Image"
+            android:layout_marginRight="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Judul menu -->
+            <TextView
+                android:id="@+id/menuTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spagheti"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <!-- Deskripsi menu -->
+            <TextView
+                android:id="@+id/menuDeskripsi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lezat dan Bergizi sekali waw"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <!-- Gambar menu -->
+        <ImageView
+            android:id="@+id/menuImage3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu3"
+            android:contentDescription="Menu Image"
+            android:layout_marginRight="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Judul menu -->
+            <TextView
+                android:id="@+id/menuTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burger"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <!-- Deskripsi menu -->
+            <TextView
+                android:id="@+id/menuDeskripsi3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="yo ayo dibeli, murah cuman 500 rupiah"
+                android:textSize="18sp"
+                android:textColor="#333333" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <!-- Gambar menu -->
+        <ImageView
+            android:id="@+id/menuImage4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu4"
+            android:contentDescription="Menu Image"
+            android:layout_marginRight="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Judul menu -->
+            <TextView
+                android:id="@+id/menuTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steak"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <!-- Deskripsi menu -->
+            <TextView
+                android:id="@+id/menuDeskripsi4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steak yang berkualitas, daging yang didapatkan dari planet Mars"
+                android:textSize="18sp"
+                android:textColor="#333333" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

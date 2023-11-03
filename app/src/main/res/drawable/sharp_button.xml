@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#F9B916" /> <!-- Warna latar belakang saat ditekan -->
+            <corners android:radius="0dp" /> <!-- Sudut tajam -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#D52F2F" /> <!-- Warna latar belakang dalam kondisi normal -->
+            <corners android:radius="0dp" /> <!-- Sudut tajam -->
+        </shape>
+    </item>
+</selector>

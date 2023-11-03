@@ -1,0 +1,88 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="223dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/pizzaa"
+        android:id="@+id/imageView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:paddingRight="100dp"
+        android:textColor="#733F0E"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Spinner
+        android:id="@+id/store_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Toko"
+        android:background="@drawable/edit_text_background"
+        android:elevation="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="205dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:textColor="#733F0E"
+        android:paddingRight="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please fill your name"
+        android:textSize="35px"
+        android:background="@drawable/edit_text_background"
+        android:elevation="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="180dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:text="Submit"
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/sharp_button"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="50px"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
